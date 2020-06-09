@@ -1,11 +1,10 @@
 import React from 'react';
+import Covid from './covid19sym.js';
 function App() {
   return (
-    <ha>
-      Hello World 
-      Hellow Pakistan
-    </ha>
-    
+   
+    <Covid fistSym= "fever" secodSym= "dry cough" thirdSym="tiredness"/>
+    <Covid fistSym= "flue" secodSym= "sore throat" thirdSym="conjunctivitis"/>
   );
 }
 
